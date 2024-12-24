@@ -1,0 +1,42 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Flask instance folder
+instance/
+
+# Virtual environment folder
+venv/
+ENV/
+env/
+venv.bak/
+
+# SQLite database file
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# .env file (contains sensitive data like DB credentials)
+.env
+
+# Coverage directory for tests
+.coverage
+*.coveragerc
+
+# PyCharm project settings
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Ignore Python egg files
+*.egg
+*.egg-info
+dist/
+build/
