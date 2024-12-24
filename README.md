@@ -33,7 +33,7 @@ Ensure that you have the following installed on your system:
 1. **Clone the repository** to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/To-do-list.git
+    git clone https://github.com/pandeyayush0811/To-do-Planner.git
     cd To-do-list
     ```
 
@@ -77,3 +77,36 @@ Ensure that you have the following installed on your system:
 
 ## Folder Structure
 
+To-do-list/ │ ├── app.py # Main Flask application file ├── requirements.txt # List of Python dependencies ├── templates/ # HTML templates │ ├── index.html # Main page template ├── static/ # Static files (CSS, JS, images) │ └── style.css # Custom CSS for styling ├── .gitignore # Git ignore file ├── README.md # Project documentation └── database.db # SQLite database file (created on app run)
+
+
+
+### Important Files
+
+- `app.py`: Contains the main Flask application, including routes and logic to interact with the SQLite database.
+- `requirements.txt`: Contains a list of Python libraries to install (Flask, etc.).
+- `templates/`: Folder containing HTML files used by Flask's rendering system.
+- `static/`: Contains static files like CSS and JavaScript for the frontend.
+- `database.db`: The SQLite database file that stores all the to-do tasks.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request. Please ensure that your code adheres to the existing code structure and passes any tests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **Ayush Pandey** – [GitHub Profile](https://github.com/pandeyayush0811)
+
+## Acknowledgments
+
+- **Flask** – A micro web framework written in Python.
+- **SQLite** – A self-contained, serverless, and zero-configuration SQL database engine.
+- **Bootstrap** – A front-end framework for building responsive, mobile-first websites.
+
+---
+
+Feel free to modify this template as per your project details! Let me know if you need any additional help. 😊
