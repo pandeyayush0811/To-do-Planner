@@ -80,9 +80,9 @@ Ensure that you have the following installed on your system:
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
-## License
+## LICENSE
 
-This project is licensed under the MIT License - see the [LICENSE](License) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
